@@ -1,0 +1,66 @@
+==================================================
+Changes from 2013-05-19 00:00:00 +0000 to present.
+==================================================
+
+-----------------------------------------
+version 0.01 at 2014-05-19 15:16:02 +0000
+-----------------------------------------
+
+  Change: 0c6583a3a9d62fe00df045f9cf74bd21ec61f596
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-19 09:15:33 +0000
+
+    fix minor typo in pod 
+
+  Change: ac933d9f4f608602d73f6f1087040407a070ca0e
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-19 09:14:11 +0000
+
+    Add test only prereqs 
+
+  Change: e6585a5e6e5cc2bc2183a9e1690fcb44dbbf9f65
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 16:48:21 +0000
+
+    basic readme 
+
+  Change: 2fdc9e58cf996c44cc15eb67e4b274e4b77500bf
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 16:47:01 +0000
+
+    oops, checked the wrong value 
+
+  Change: 47ba30e6f31f33e347cb558bad940c56c605b500
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 16:46:34 +0000
+
+    basic transaction tests 
+
+  Change: fc45db5e0aa20e3a37e2d7daeb995777cbcecc89
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 16:45:49 +0000
+
+    used for testing without a real db 
+
+  Change: 5c030f13eb24b02ffa1105b35a8cbb03ef35df7a
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 15:32:14 +0000
+
+    initial commit 
+
+  Change: 54624cb2f4f44072a652b8868bfcc053b22e758b
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 15:12:57 +0000
+
+    Cache::Memcached::Fast does not need a "use"... "require" is good
+    enough. 
+
+  Change: 71aae379d69aa20fe2c47fed8bf2573c732ea478
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-16 15:09:22 +0000
+
+    Initial commit 
+
+================
+End of releases.
+================
