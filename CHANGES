@@ -3,8 +3,16 @@ Changes from 2013-05-19 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.01 at 2014-05-19 15:16:02 +0000
+version 0.02 at 2014-05-19 16:57:10 +0000
 -----------------------------------------
+
+  Change: 50e2679cd912ee9220ea99de8c2d3328c4194b51
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-19 10:56:01 +0000
+
+    Don't die on memd_commit unless there is something to commit This
+    helps maintain compatibility with normal DBI before initializing the
+    memd side. 
 
   Change: 0c6583a3a9d62fe00df045f9cf74bd21ec61f596
   Author: Jason Terry <jterry@jterry-mac.local>
