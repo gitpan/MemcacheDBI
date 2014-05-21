@@ -1,10 +1,60 @@
 ==================================================
-Changes from 2013-05-19 00:00:00 +0000 to present.
+Changes from 2013-05-21 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.02 at 2014-05-19 16:57:10 +0000
+version 0.03 at 2014-05-21 15:28:18 +0000
 -----------------------------------------
+
+  Change: fd7ae5c56b7d666e7fef61386f3bc7c3bb57098c
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-21 09:25:48 +0000
+
+    Add a comment to commit.t so I remember specifically why I made the
+    trivial test. 
+
+  Change: 6bad2b3fbb35c987f170a40f6538da3d5fb829cf
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-21 09:24:16 +0000
+
+    Add a commit test. 
+
+  Change: f49678afe20956eb3389c1e28a6cf476bd93c9d5
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-21 09:23:51 +0000
+
+    Bubble up the autocommit warning so it's easier to find. 
+
+  Change: 4b0e733a3a15ee5523cb3699c0bd483fac5d2b06
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-20 15:55:44 +0000
+
+    Fix commit when no memd exits 
+
+  Change: 51fdd2f76a8b84d2cede8368da29ebeada94e848
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-20 15:55:25 +0000
+
+    Fix typo in prereq 
+
+  Change: 5d1a4fbc2c21fdf6ecd739a61895c96061046f12
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-20 15:40:41 +0000
+
+    Cleanup some code and a revamp to the methods.
+
+    Now you can use this as a drop in for dbh and get memd drop in
+    replacement for memcache (for set/get only) 
+
+  Change: dbc209389756b0d60950f11ec6459cf75b1452eb
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-20 11:14:56 +0000
+
+    Make Data::Dumper work just like DBI would (except the ref is
+    MemcacheDBI).
+
+    If you want to peer Dumper the MemcacheDBI bit then Dumper
+    $memd->{'MemcacheDBI'} is what you really want to do. 
 
   Change: 50e2679cd912ee9220ea99de8c2d3328c4194b51
   Author: Jason Terry <jterry@jterry-mac.local>
