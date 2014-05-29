@@ -1,10 +1,19 @@
 ==================================================
-Changes from 2013-05-21 00:00:00 +0000 to present.
+Changes from 2013-05-29 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.03 at 2014-05-21 15:28:18 +0000
+version 0.04 at 2014-05-29 18:07:57 +0000
 -----------------------------------------
+
+  Change: db6335914228c0324a105dc7ab6f06ddb2aab694
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-29 11:46:54 +0000
+
+    A few fixes so MemcacheDBI responds more like DBI when it is unable
+    to create a DB connection.
+
+    A few new unit tests. 
 
   Change: fd7ae5c56b7d666e7fef61386f3bc7c3bb57098c
   Author: Jason Terry <jterry@jterry-mac.local>
