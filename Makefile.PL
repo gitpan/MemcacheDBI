@@ -21,15 +21,16 @@ my %WriteMakefileArgs = (
   "NAME" => "MemcacheDBI",
   "PREREQ_PM" => {
     "Cache::Memcached::Fast" => 0,
+    "Clone" => 0,
     "DBI" => 0
   },
   "TEST_REQUIRES" => {
-    "DBI::CSV" => 0,
+    "DBD::CSV" => 0,
     "Data::Dumper" => 0,
     "Test::Deep" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -38,8 +39,9 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Cache::Memcached::Fast" => 0,
+  "Clone" => 0,
+  "DBD::CSV" => 0,
   "DBI" => 0,
-  "DBI::CSV" => 0,
   "Data::Dumper" => 0,
   "Test::Deep" => 0,
   "Test::More" => 0

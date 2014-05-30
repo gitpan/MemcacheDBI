@@ -1,10 +1,46 @@
 ==================================================
-Changes from 2013-05-29 00:00:00 +0000 to present.
+Changes from 2013-05-30 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.04 at 2014-05-29 18:07:57 +0000
+version 0.06 at 2014-05-30 20:30:11 +0000
 -----------------------------------------
+
+  Change: 0b9419316eb1d2a52891287d8822a12f4a652b40
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-30 14:27:38 +0000
+
+    Use clone so we don't mess up data if they change stuff in a pointer
+    after setting it.
+
+    Make get/set work exactly like the real thing when AutoCommit=1
+
+    Add support for delete/namespace 
+
+  Change: dbdbbf8d08fad62fe6fbb152468f9077db58312d
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-30 14:26:50 +0000
+
+    Add clone as a prereq 
+
+  Change: c0f9824c54d7297a61a1db655daee20572b74965
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-30 14:26:17 +0000
+
+    Test now works with both DBD:CSV and DBD:Pg 
+
+  Change: bd5a068c9261464cd91e96e36c510b5f3128468a
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-30 14:25:11 +0000
+
+    Run test only when using DBD::Pg. Since each driver apparently
+    returns commit a little bit differently. 
+
+  Change: a9f1e16832e86461c7760a1442829b5cc5b280d3
+  Author: Jason Terry <jterry@jterry-mac.local>
+  Date : 2014-05-30 09:14:01 +0000
+
+    Minor version bump to fix make test requirement should be DBD::CSV 
 
   Change: db6335914228c0324a105dc7ab6f06ddb2aab694
   Author: Jason Terry <jterry@jterry-mac.local>
