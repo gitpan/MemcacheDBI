@@ -20,4 +20,5 @@ requires:
   Cache::Memcached::Fast: 0
   Clone: 0
   DBI: 0
-version: 0.06
+  perl: 5.010
+version: 0.07
